@@ -19,7 +19,7 @@ const Navbar = () => {
         </Link>
       </div>
       {/* CENTER  */}
-      <div className="hidden md:flex w-[50%] text-sm">
+      <div className="hidden md:flex items-center justify-between w-[50%] text-sm">
         <div className="flex gap-6 text-gray-600 ">
           <Link href="/" className="flex items-center gap-2">
             <Image
@@ -51,6 +51,10 @@ const Navbar = () => {
             />
             <span>Groups</span>
           </Link>
+        </div>
+        <div className="hidden xl:flex items-center bg-slate-100 p-2 rounded-xl">
+          <input type="text" placeholder="search....." className="bg-transparent outline-none" />
+          <Image src="/search.png" alt="" width={14} height={14} />
         </div>
       </div>
       {/* RIGHT  */}
