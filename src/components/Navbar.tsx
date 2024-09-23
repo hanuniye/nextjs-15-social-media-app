@@ -52,7 +52,7 @@ const Navbar = () => {
             <span>Groups</span>
           </Link>
         </div>
-        <div className="hidden xl:flex items-center bg-slate-100 p-2 rounded-xl">
+        <div className="hidden xl:flex items-center bg-slate-100 py-2 px-4 rounded-xl">
           <input type="text" placeholder="search....." className="bg-transparent outline-none" />
           <Image src="/search.png" alt="" width={14} height={14} />
         </div>
